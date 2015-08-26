@@ -1,0 +1,47 @@
+**** Create a survey that collects some basic information about the participant
+**** and asks them a series of questions about Movies.
+
+Collect:
+
+First Name
+Last Name
+
+Address
+City
+Zip Code
+
+State (Either: South Carolina, North Carolina, Georgia, Florida, Alabama, Tennessee)
+Age (Either: 0-17, 18-34, over 35)
+Ethnicity (Caucasian, Hispanic, African-American, Other, Don't Answer)
+Gender
+
+Questions:
+
+1. In the last 12 months, how many film have you seen in theatres?
+    0-5, 6-10, more than 10
+
+2. In the last 12 months, what genres of movies have you seen in theatres? (Select all that apply)
+    Action-Adventure, Sci-Fi, Comedy, Thriller, Musical, Animated, Horror, Family, Documentary
+
+3. If you like watching movies in the theatre, how likely are you to buy the dvd/blue-ray layer?
+    Very likely, Somewhat likely, Not very likely, Not likely at all
+
+4. Which of the following aspects do you consider most important to a good movie?
+    Casting, Writing, Special Effects, Directing
+
+5. How likely are you to watch a movie during it's opening weekend?
+    Very likely, Somewhat likely, Not very likely, Not likely at all
+
+6. In the last 12 months, what is the best movie you've seen in theatres?
+
+7. What about the movie was most enjoyable?
+
+8. How likely are you to see a movie in theatres a second time?
+    Very likely, Somewhat likely, Not very likely, Not likely at all
+
+
+
+
+
+
+

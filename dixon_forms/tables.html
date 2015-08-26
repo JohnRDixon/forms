@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset "utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<title>Tables</title>
+
+	<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Place favicon.ico in the root directory -->
+
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<table border="1" cellpadding="6">
+		<th colspan="4">
+			<h3>Favorite Fruits</h3>
+		</th>
+
+		<!-- tr is table row -->
+		<tr>
+			<th>Person</th>
+			<th>Veg</th>
+			<th>Fruit</th>
+			<th>Fruit</th>
+		</tr>
+
+	</table>
+	<!-- table tag is parent of all table elements -->
+	<table border="1" cellpadding="6">
+		<!-- thead ontains all table lables and header information -->
+		<thead>
+			<!-- th is one table header label -->
+			<th colspan="3">Budget</th>
+			<!-- tr is a row in the table -->
+			<tr>
+				<th>Date</th>
+				<th>Expenses</th>
+				<th>Earnings</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td>26 August</td>
+				<td>$1000</td>
+				<td>$0.40</td>
+			</tr>
+
+			<tr>
+				<td>27 August</td>
+				<td>$800</td>
+				<td>$1200</td>
+			</tr>
+
+			<tr>
+				<td>28 August</td>
+				<td>$200</td>
+				<td>
+
+					<table>
+						<tr>
+							<td>hello</td>
+							<td>hello</td>
+						</tr>
+						<tr>
+							<td>world</td>
+							<td>world</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+		<!-- tfoot contains summative information or information about the table -->
+		<tfoot>
+			<tr>
+			<th>Total:</th>
+			<td>$2000</td>
+			<td>$1410.40</td>
+
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

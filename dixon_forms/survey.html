@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<title>Survey</title>
+
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Place favicon.ico in the root directory -->
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<form action="path/to/serverscript.php" method="post">
+			<fieldset>
+				<legend>Film Survey</legend>
+
+				<div>
+					<label for="name">First Name</label>
+					<input type="text" name="name" id="name" value="" />
+				</div>
+
+				<div>
+					<label for="name">Last Name</label>
+					<input type="text" name="name" id="name" value="" />
+				</div>
+		
+
+				<div>
+					<label for="name">Address</label>
+					<input type="text" name="name" id="name" value="" />
+				</div>
+
+			<div>
+				<label for="name">City</label>
+				<input type="text" name="name" id="name" value="" />
+			</div>
+	
+
+			<div>
+				<label for="name">Zip Code</label>
+				<input type="text" name="name" id="name" value="" />
+			</div>
+
+		
+		</fieldset>
+
+			<div>
+			
+				<h4>State</h4>
+			
+				<select name="select-choice" id="select-choice">
+				
+					<option value="choice_1">SC</option>
+					<option value="choice_2">NC</option>
+					<option value="choice_3">GA</option>
+					<option value="choice_4">FL</option>
+					<option value="choice_5">AL</option>
+					<option value="choice_6">TN</option>
+				</select>
+			</div>
+
+			<div>
+			
+				<h4>Age</h4>
+			
+				<select name="select-choice" id="select-choice">
+				
+					<option value="choice_1">0-17</option>
+					<option value="choice_2">18-34</option>
+					<option value="choice_3">Over 35</option>
+				</select>
+			</div>
+
+			<div>
+			
+				<h4>Ethnicity</h4>
+			
+				<select name="select-choice" id="select-choice">
+				
+					<option value="choice_1">Caucasian</option>
+					<option value="choice_2">Hispanic</option>
+					<option value="choice_3">African-American</option>
+					<option value="choice_4">Other</option>
+					<option value="choice_5">Prefer not to answer</option>
+				</select>
+			</div>
+
+		
+			
+		
+			<div>
+				
+				<h4>Gender</h4>
+
+				<label for="radio-choice-1">Male</label>
+				<input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1"/>
+
+				<label for="radio-choice-2">Female</label>
+				<input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2"/>
+
+				<label for="radio-choice-1">Other</label>
+				<input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3"/>
+
+				
+			</div>
+		
+	<fieldset>
+		<legend>Survey Questions</legend>
+		
+			<div>
+				
+				<h4>1. In the last 12 months, how many film have you seen in theatres?</h4>
+
+				<label for="radio-choice-4">0-5</label>
+				<input type="radio" name="radio-choice-2" id="radio-choice-4" value="choice-4"/>
+
+				<label for="radio-choice-5">6-10</label>
+				<input type="radio" name="radio-choice-2" id="radio-choice-5" value="choice-5"/>
+
+				<label for="radio-choice-6">More than 10</label>
+				<input type="radio" name="radio-choice-2" id="radio-choice-6" value="choice-6"/>
+
+				
+			</div>
+		
+
+			<div>
+			
+			<h4>2. In the last 12 months, what genres of movies have you seen in theatres? (Select all that apply)</h4>
+				<label for="checkbox-1">Action-Adventure</label>
+				<input type="checkbox" name="checkbox-1" id="checkbox-1" />
+
+				<label for="checkbox-2">Sci-Fi</label>
+				<input type="checkbox" name="checkbox-2" id="checkbox-2" />
+
+				<label for="checkbox-3">Comedy</label>
+				<input type="checkbox" name="checkbox-3" id="checkbox-3" />
+
+				<label for="checkbox-4">Thriller</label>
+				<input type="checkbox" name="checkbox-4" id="checkbox-4" />
+
+				<label for="checkbox-5">Musical</label>
+				<input type="checkbox" name="checkbox-5" id="checkbox-5" />
+
+				<label for="checkbox-6">Animated</label>
+				<input type="checkbox" name="checkbox-6" id="checkbox-6" />
+
+				<label for="checkbox-7">Horror</label>
+				<input type="checkbox" name="checkbox-7" id="checkbox-7" />
+
+				<label for="checkbox-8">Family</label>
+				<input type="checkbox" name="checkbox-8" id="checkbox-8" />
+
+				<label for="checkbox-9">Documentary</label>
+				<input type="checkbox" name="checkbox-9" id="checkbox-9" />
+
+		</div>
+	
+		
+			<div>
+				
+				<h4>3. If you like watching movies in the theatre, how likely are you to buy the dvd/blue-ray later?</h4>
+
+				<label for="radio-choice-7">Very likely</label>
+				<input type="radio" name="radio-choice-3" id="radio-choice-7" value="choice-7"/>
+
+				<label for="radio-choice-8">Somewhat Likely</label>
+				<input type="radio" name="radio-choice-3" id="radio-choice-8" value="choice-8"/>
+
+				<label for="radio-choice-9">Not Very Likely</label>
+				<input type="radio" name="radio-choice-3" id="radio-choice-9" value="choice-9"/>
+
+				<label for="radio-choice-10">Not Likely At All</label>
+				<input type="radio" name="radio-choice-3" id="radio-choice-10" value="choice-10"/>
+			</div>
+		
+		
+		
+			<div>
+				
+				<h4>4. Which of the following aspects do you consider most important to a good movie?</h4>
+
+				<label for="radio-choice-11">Casting</label>
+				<input type="radio" name="radio-choice-4" id="radio-choice-11" value="choice-11"/>
+
+				<label for="radio-choice-12">Writing</label>
+				<input type="radio" name="radio-choice-4" id="radio-choice-12" value="choice-12"/>
+
+				<label for="radio-choice-13">Special Effects</label>
+				<input type="radio" name="radio-choice-4" id="radio-choice-13" value="choice-13"/>
+
+				<label for="radio-choice-14">Directing</label>
+				<input type="radio" name="radio-choice-4" id="radio-choice-14" value="choice-14"/>
+			</div>
+		
+
+		
+			<div>
+				
+				<h4>5. How likely are you to watch a movie during it's opening weekend?</h4>
+
+				<label for="radio-choice-15">Very Likely</label>
+				<input type="radio" name="radio-choice-5" id="radio-choice-15" value="choice-15"/>
+
+				<label for="radio-choice-16">Somewhat Likely</label>
+				<input type="radio" name="radio-choice-5" id="radio-choice-16" value="choice-16"/>
+
+				<label for="radio-choice-17">Not Very Likely</label>
+				<input type="radio" name="radio-choice-5" id="radio-choice-17" value="choice-17"/>
+
+				<label for="radio-choice-18">Not Likely At All</label>
+				<input type="radio" name="radio-choice-5" id="radio-choice-18" value="choice-18"/>
+			</div>
+		
+
+
+
+
+		<div>
+			<label for="name"><h4>6. In the last 12 months, what is the best movie you've seen in theatres?</h4></label>
+			<input type="text" name="name" id="name" value="" />
+		</div>
+
+		<div>
+			<label for="textarea">7. What about the movie was most enjoyable?</label>
+			<textarea cols="20" rows="4" name="textarea" id="textarea"></textarea>
+	
+	
+		<div>
+				
+			<h4>8. How likely are you to see a movie in theatres a second time?</h4>
+
+				<label for="radio-choice-19">Very Likely</label>
+				<input type="radio" name="radio-choice-6" id="radio-choice-19" value="choice-19"/>
+
+				<label for="radio-choice-20">Somewhat Likely</label>
+				<input type="radio" name="radio-choice-6" id="radio-choice-20" value="choice-20"/>
+
+				<label for="radio-choice-21">Not Very Likely</label>
+				<input type="radio" name="radio-choice-6" id="radio-choice-21" value="choice-21">
+
+				<label for="radio-choice-22">Not Likely At All</label>
+				<input type="radio" name="radio-choice-6" id="radio-choice-22" value="choice-22"/>
+			</div>
+	</fieldset>
+			<div>
+			<input type="submit" value="Submit" />
+		</div>
+		</form>
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>
